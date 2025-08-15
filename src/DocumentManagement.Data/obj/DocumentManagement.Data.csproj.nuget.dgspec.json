@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Data/DocumentManagement.Data.csproj": {}
+  },
+  "projects": {
+    "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Core/DocumentManagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Core/DocumentManagement.Core.csproj",
+        "projectName": "DocumentManagement.Core",
+        "projectPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Core/DocumentManagement.Core.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj": {
+                "projectPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Data/DocumentManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Data/DocumentManagement.Data.csproj",
+        "projectName": "DocumentManagement.Data",
+        "projectPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Data/DocumentManagement.Data.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Core/DocumentManagement.Core.csproj": {
+                "projectPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Core/DocumentManagement.Core.csproj"
+              },
+              "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj": {
+                "projectPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            },
+            "System.Data.SQLite.EF6": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj",
+        "projectName": "DocumentManagement.Models",
+        "projectPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/DocumentManagement.Models.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

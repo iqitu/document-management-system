@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = DocumentManagement.Core.Tests
+build_property.ProjectDir = /home/runner/work/document-management-system/document-management-system/tests/DocumentManagement.Core.Tests/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

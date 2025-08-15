@@ -10,6 +10,7 @@
     <ProjectReference Include="..\DocumentManagement.Core\DocumentManagement.Core.csproj" />
     <ProjectReference Include="..\DocumentManagement.Data\DocumentManagement.Data.csproj" />
     <ProjectReference Include="..\DocumentManagement.Models\DocumentManagement.Models.csproj" />
+    <ProjectReference Include="..\DocumentManagement.WordParser\DocumentManagement.WordParser.csproj" />
   </ItemGroup>
 
 </Project>

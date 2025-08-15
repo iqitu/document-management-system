@@ -49,6 +49,11 @@ public class DocumentTemplate
     /// 更新时间
     /// </summary>
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
+    
+    /// <summary>
+    /// 模板控件集合
+    /// </summary>
+    public virtual ICollection<TemplateControl> TemplateControls { get; set; } = new List<TemplateControl>();
 }
 
 /// <summary>

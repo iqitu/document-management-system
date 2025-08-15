@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <ProjectReference Include="..\DocumentManagement.Models\DocumentManagement.Models.csproj" />
+    <ProjectReference Include="..\DocumentManagement.Data\DocumentManagement.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -8,6 +8,7 @@ using DocumentManagement.Core.Interfaces;
 using DocumentManagement.Services.Interfaces;
 using DocumentManagement.Services.Services;
 using DocumentManagement.WordParser.Services;
+using DocumentManagement.WordParser.FormGenerator;
 using DocumentManagement.WPF.Views;
 using DocumentManagement.WPF.ViewModels;
 
@@ -57,9 +58,11 @@ namespace DocumentManagement.WPF
             // 服务层
             services.AddScoped<IDocumentService, DocumentService>();
             services.AddScoped<IDataLinkageService, DataLinkageService>();
+            services.AddScoped<IFormGenerationService, FormGenerationService>();
 
             // Word处理
             services.AddScoped<IWordTemplateParser, WordTemplateParser>();
+            services.AddScoped<IDynamicFormGenerator, DynamicFormGenerator>();
 
             // 视图和视图模型
             services.AddScoped<MainWindow>();

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4E5F6G7-H8I9-0123-4567-890ABCDEF123}</ProjectGuid>
+    <ProjectGuid>{B2C3D4E5-F6G7-8901-2345-67890ABCDEF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DocumentManagement.Models</RootNamespace>
-    <AssemblyName>DocumentManagement.Models</AssemblyName>
+    <RootNamespace>DocumentManagement.Core</RootNamespace>
+    <AssemblyName>DocumentManagement.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,7 +33,6 @@
   <ItemGroup>
     <Reference Include="System"/>
     <Reference Include="System.Core"/>
-    <Reference Include="System.ComponentModel.DataAnnotations"/>
     <Reference Include="System.Xml.Linq"/>
     <Reference Include="System.Data.DataSetExtensions"/>
     <Reference Include="Microsoft.CSharp"/>
@@ -42,11 +41,20 @@
     <Reference Include="System.Xml"/>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Document.cs" />
-    <Compile Include="Template.cs" />
-    <Compile Include="Department.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="IDocumentService.cs" />
+    <Compile Include="DocumentService.cs" />
+    <Compile Include="TemplateParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentManagement.Models\DocumentManagement.Models.csproj">
+      <Project>{D4E5F6G7-H8I9-0123-4567-890ABCDEF123}</Project>
+      <Name>DocumentManagement.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DocumentManagement.Common\DocumentManagement.Common.csproj">
+      <Project>{F6G7H8I9-J0K1-2345-6789-0ABCDEF12345}</Project>
+      <Name>DocumentManagement.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

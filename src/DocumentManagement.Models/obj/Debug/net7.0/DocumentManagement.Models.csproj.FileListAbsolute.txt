@@ -1,0 +1,13 @@
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/bin/Debug/net7.0/DocumentManagement.Models.deps.json
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/bin/Debug/net7.0/DocumentManagement.Models.dll
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/bin/Debug/net7.0/DocumentManagement.Models.pdb
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.csproj.AssemblyReference.cache
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.AssemblyInfoInputs.cache
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.AssemblyInfo.cs
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.csproj.CoreCompileInputs.cache
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.sourcelink.json
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.dll
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/refint/DocumentManagement.Models.dll
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/DocumentManagement.Models.pdb
+/home/runner/work/document-management-system/document-management-system/src/DocumentManagement.Models/obj/Debug/net7.0/ref/DocumentManagement.Models.dll
